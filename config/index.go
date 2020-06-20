@@ -27,10 +27,10 @@ handle_cookie: True
 
 host:
   self: google.ryanyang.now.sh
-  proxy: c.disquscdn.com
+  proxy: a.disquscdn.com
 
 replaced_urls:
-  - old: c.disquscdn.com
+  - old: a.disquscdn.com
     new: google.ryanyang.now.sh
 `
 var Config *Yaml
