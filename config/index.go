@@ -26,12 +26,12 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: google.ryanyang.now.sh
+  self: disquscdn.now.sh
   proxy: a.disquscdn.com
 
 replaced_urls:
   - old: a.disquscdn.com
-    new: google.ryanyang.now.sh
+    new: disquscdn.now.sh
 `
 var Config *Yaml
 var Protocal string
