@@ -27,10 +27,10 @@ handle_cookie: True
 
 host:
   self: google.ryanyang.now.sh
-  proxy: www.google.com
+  proxy: gcr.io
 
 replaced_urls:
-  - old: www.google.com
+  - old: gcr.io
     new: google.ryanyang.now.sh
 `
 var Config *Yaml
