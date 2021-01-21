@@ -26,12 +26,12 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: google.ryanyang.now.sh
+  self: google.ryanyang.vercel.app
   proxy: www.google.com
 
 replaced_urls:
   - old: www.google.com
-    new: google.ryanyang.now.sh
+    new: google.ryanyang.vercel.app
 `
 var Config *Yaml
 var Protocal string
