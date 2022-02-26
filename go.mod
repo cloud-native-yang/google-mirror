@@ -1,6 +1,6 @@
 module mirror
 
-go 1.12
+go 1.16
 
 require (
 	github.com/dsnet/compress v0.0.1 // indirect
